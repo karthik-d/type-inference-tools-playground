@@ -14,3 +14,12 @@
 
 - Python>=3.9
 - Linux
+
+**NOTE**: HiTyper requires running under Python >= 3.9 because there are a lot of new nodes introduced on AST from Python 3.9. However, HiTyper can analyze most files written under Python 3 since Python's AST is backward compatible.
+
+
+## Datasets
+
+More information about the datasets used can be found in its docs, [here](./data/README.md)
+
+- ManyTypes4Py
