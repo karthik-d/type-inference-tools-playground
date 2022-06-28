@@ -1,3 +1,4 @@
 .token
 data/datasets/*
+!data/datasets/custom-data
 
