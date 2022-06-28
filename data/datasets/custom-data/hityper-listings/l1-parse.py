@@ -1,4 +1,5 @@
 # src/graph_transpiler/webdnn/graph/shape.py
+# https://github.com/mil-tokyo/webdnn
 
 def parse(text):
     normalized_text = _normalize_text(text)

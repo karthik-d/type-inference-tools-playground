@@ -1,4 +1,4 @@
 .token
 data/datasets/*
-!data/datasets/custom-data
+!data/datasets/custom-data/hityper-listings
 
