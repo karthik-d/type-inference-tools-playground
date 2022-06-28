@@ -9,6 +9,7 @@
 - Cloned as a Git Submodule
 - Installed using pip, as `pip install ./HiTyper/`
 - To experiment with its source code, make changes in the submodule and reinstall with pip
+- To generate TDGs as PDFs, there is a dependecy on GraphViz. Install it as a binary on the system, for instance, using apt: `$apt-get install graphviz`
 
 #### Dependencies
 
@@ -20,6 +21,6 @@
 
 ## Datasets
 
-More information about the datasets used can be found in its docs, [here](./data/README.md)
+More information about the datasets used can be found in a dedicated README, [here](./data/README.md)
 
 - ManyTypes4Py
