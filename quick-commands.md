@@ -1,3 +1,5 @@
+# HiTyper
+
 ## l1-parse.py
 
 - `hityper findusertype -s hityper-listings/l1-parse.py -p hityper-listings -v -d outputs`
@@ -11,3 +13,12 @@
 - `hityper infer -s hityper-listings/l2-abstract_node.py -p hityper-listings -d outputs/ -n 2 -t`
 
 
+# PyType
+
+# l1-string-int-add.py
+
+- `hityper infer -s pytype-listings/l1-string-int-add.py -p pytype-listings -d outputs/ -n 5 -t`
+
+# l2-strict-typing.py
+
+- `hityper infer -s pytype-listings/l2-strict-typing.py -p pytype-listings -d outputs/ -n 5 -t`
