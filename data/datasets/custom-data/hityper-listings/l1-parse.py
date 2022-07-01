@@ -9,7 +9,7 @@ def parse(text):
     for i , t in enumerate(tmp) :
         if isinstance(t, str) :
             pt = Placeholder(label=t)
-            placeholders [t] = pt
+            placeholders[t] = pt
         elif isinstance (t, int) :
             pt = t
         shape.append(pt)
