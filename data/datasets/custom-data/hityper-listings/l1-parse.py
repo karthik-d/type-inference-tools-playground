@@ -14,3 +14,4 @@ def parse(text):
             pt = t
         shape.append(pt)
     return shape, placeholders
+
