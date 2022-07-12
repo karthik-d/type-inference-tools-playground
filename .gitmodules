@@ -1,3 +1,6 @@
 [submodule "HiTyper"]
 	path = submodules/HiTyper
 	url = https://github.com/JohnnyPeng18/HiTyper
+[submodule "submodules/CrossHair"]
+	path = submodules/CrossHair
+	url = https://github.com/pschanely/CrossHair
