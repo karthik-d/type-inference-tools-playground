@@ -1,4 +1,6 @@
-from typing import List
+from typing import List, Optional
+import dataclasses
+import re
 
 # crosshair: off
 
@@ -97,6 +99,49 @@ def outer_function():
     return 10
 
 
+
+#-------------------------
+# Example with classes
+
+
+@dataclasses.dataclass
+class AverageableQueue:
+    '''
+    A queue of numbers with a O(1) average() operation.
+    inv: self._total == sum(self._values)
+    '''
+    _values: List[int]
+    _total: int
+
+    def push(self, val: int):
+        self._values.append(val)
+        self._total += val
+
+    def pop(self) -> int:
+        ''' pre: len(self._values) > 0 '''
+        val = self._values.pop(0)
+        # Oops. We are forgetting to do something here.
+        return val
+
+    def average(self) -> float:
+        ''' pre: self._values '''
+        return self._total / len(self._values)
+
+
+# -----------------------
+# Regex checking
+
+def parse_year(yearstring: str) -> Optional[int]:
+    # crosshair: on
+    '''    
+    post: __return__ is None or 1000 <= __return__ <= 9999
+    '''
+    
+    # return int(yearstring) if re.match('[1-9][0-9][0-9][0-9]', yearstring.rstrip()) else None
+    # """
+    # Fix
+    return int(yearstring) if re.match('^[1-9][0-9][0-9][0-9]$', yearstring.rstrip()) else None
+    # """
 
 
 # ------------------------
