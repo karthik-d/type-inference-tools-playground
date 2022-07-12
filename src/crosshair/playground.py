@@ -5,7 +5,7 @@ import re
 # crosshair: off
 
 def blow_up_noannot(n):
-    # crosshair: off
+    # crosshair: on
 
     '''
     post: __return__ != 0
@@ -16,10 +16,18 @@ def blow_up_noannot(n):
 def blow_up(n: int) -> int:
     # crosshair: on
 
+    def blow_up_2(n: int) -> int:
+
+        '''
+        post: __return__ != 0
+        '''
+        return 2 * n + 10
+
+    '''    
+    post: __return__ > 0
     '''
-    post: __return__ != 0
-    '''
-    return 2 * n + 10
+    return blow_up_2(-10)
+    # return 2 * n + 10
 
 
 def identity(x):
@@ -65,7 +73,7 @@ def catch_index_error(numbers: list[int]) -> list[tuple[int, int]]:
     """
 
 # ---------------------
-# Cross-check different implementatios of logic
+# Cross-check different implementations of logic
 
 def get_first_column(text: str) -> str: 
     # crosshair: on
@@ -151,8 +159,9 @@ def check_num_in_nums(num: int, numbers: list[int]) -> bool:
     # crosshair: on
     '''
     pre: all([ x in (0,1) for x in numbers])
-    pre: 0 < len(numbers) < 3
+    pre: 0 <= len(numbers) < 3
     pre: 0 < num < 4
+    post: True
     '''
 
     return num in numbers
