@@ -55,10 +55,9 @@
     "check_indexing@global": [
         {
             "category": "arg",
-            "name": "i",
+            "name": "j",
             "type": [
-                "int",
-                "None"
+                "int"
             ]
         },
         {
@@ -78,6 +77,13 @@
         },
         {
             "category": "local",
+            "name": "j",
+            "type": [
+                "int"
+            ]
+        },
+        {
+            "category": "local",
             "name": "b",
             "type": [
                 "int",
@@ -92,5 +98,61 @@
             ]
         }
     ],
-    "global@global": []
+    "f@global": [
+        {
+            "category": "arg",
+            "name": "i",
+            "type": [
+                "int"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "l",
+            "type": [
+                "list[int]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "i",
+            "type": [
+                "int"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "a",
+            "type": [
+                "str",
+                "dict[, ]",
+                "int"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "f",
+            "type": [
+                "int"
+            ]
+        }
+    ],
+    "global@global": [],
+    "type_updation@global": [
+        {
+            "category": "local",
+            "name": "li",
+            "type": [
+                "list[int]",
+                "list[typing.Union[int,typing.Text]]"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "type_updation",
+            "type": [
+                "None"
+            ]
+        }
+    ]
 }

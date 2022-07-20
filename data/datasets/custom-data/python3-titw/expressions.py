@@ -1,11 +1,12 @@
 from pytype_extensions import assert_type
 # Syntactic convenience to avoid Python interpreter error
 
-def check_indexing(i):
+def check_indexing(j):
     
     li = [42, 'parrot']
     reveal_type(li)
     # Pytype: List[Union[int, str]]
+    # MyPy: list [object]
     # HiTyper: list[typing.Union[int,typing.Text]]
     
     a = li[0]
@@ -28,7 +29,7 @@ def aliasing_and_attributes():
             self.attr = x
     
     a = A(1)
-    b = a
+    b = A(2)
 
     i = input()
     if (i == 'coconut'):
@@ -41,7 +42,7 @@ def aliasing_and_attributes():
     # MyPy: object
 
     reveal_type(b.attr)
-    # Pytype:  Union[int, str]
+    # Pytype:  Union[int, str], int
     # MyPy: Any
 
     # HiTyper
@@ -51,3 +52,29 @@ def aliasing_and_attributes():
     #     "typing.Text",
     #     "int"
     # ]
+
+
+def type_updation():
+
+    li = [10, 20]
+    reveal_type(li)
+    # PyType:  List[int]
+    # MyPy: List[int]
+
+    li[1] = "string"
+    reveal_type(li)
+    # Pytype: List[Union[int, str]]
+    # MyPy: ERROR
+    # HiTyper
+    # "type": [
+    #     "list[int]",
+    #     "list[typing.Union[int,typing.Text]]"
+    # ]
+
+def f(i):
+    l = [1, 2, 3]
+    reveal_type(i)
+    reveal_type(l[i])
+    a = f(0)
+    reveal_type(a)
+    return l[i] 
