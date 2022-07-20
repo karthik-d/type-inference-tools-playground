@@ -4,3 +4,6 @@
 [submodule "submodules/CrossHair"]
 	path = submodules/CrossHair
 	url = https://github.com/pschanely/CrossHair
+[submodule "submodules/pytype"]
+	path = submodules/pytype
+	url = https://github.com/google/pytype.git
