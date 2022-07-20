@@ -1,0 +1,66 @@
+=====Fix1=====
+Project: memsource-wrap
+File: memsource-wrap/memsource/api.py
+File Link: https://github.com/gengo/memsource-wrap/blob/master/memsource/api.py
+Location: Line#853 Function#createAnalysis Target#Return Value
+Original Human Annotation: models.AsynchronousRequest
+Mypy Check: "gengo.memsource-wrap/memsource/api.py:864: error: Incompatible return value type (got "Tuple[AsynchronousRequest, Analysis]", expected "AsynchronousRequest")"
+Hityper's correction: typing.Tuple[typing.Union[AsynchronousRequest,Analysis]]
+Mypy Check: Pass
+
+Location: Line#899 Function#createJob Target#Return Value
+Original Human Annotation: Tuple[models.AsynchronousResponse, List[models.JobPart]]
+Mypy Check: "gengo.memsource-wrap/memsource/api.py:925: error: Incompatible return value type (got "Tuple[AsynchronousRequest, List[JobPart]]", expected "Tuple[AsynchronousResponse, List[JobPart]]")"
+Hityper's correction: typing.Tuple[models.AsynchronousRequest, List[models.JobPart]]
+Mypy Check: Pass
+
+=====Fix2=====
+Project: MatasanoCrypto
+File: MatasanoCrypto/matasano/blocks.py
+File Link: https://github.com/aldur/MatasanoCrypto/blob/master/matasano/blocks.py
+Location: Line#295 Function#aes_ctr Target#Return Value
+Original Human Annotation: bytes
+Mypy Check: "aldur.MatasanoCrypto/matasano/blocks.py:326: error: Incompatible return value type (got "Tuple[bytes, int]", expected "bytes")"
+Hityper's correction: typing.Tuple[typing.Union[bytes, int]] 
+Mypy Check: Pass
+
+=====Fix3=====
+Project: metadata-check
+File: metadata-check/mcheck/metadata/seqscape_metadata/seqscape_metadata.py
+File Link: https://github.com/wtsi-hgi/metadata-check/blob/master/mcheck/metadata/seqscape_metadata/seqscape_metadata.py
+Location: Line#151 Function#get_entities_without_duplicates_by_entity_type Target#Return Value
+Original Human Annotation: List
+Mypy Check: "wtsi-hgi.metadata-check/mcheck/metadata/seqscape_metadata/seqscape_metadata.py:154: error: Incompatible return value type (got "Set[Any]", expected "List[Any]")"
+Hityper's correction: typing.Set
+Mypy Check: Pass
+
+
+=====Fix4=====
+Project: coach
+File: coach/rl_coach/memories/non_episodic/experience_replay.py
+File Link: https://github.com/IntelLabs/coach/blob/master/rl_coach/memories/non_episodic/experience_replay.py
+Location: Line#95 Function#get_shuffled_training_data_generator Target#Return Value
+Original Human Annotation: List[Transition]
+Mypy Check: "NervanaSystems.coach/rl_coach/memories/non_episodic/experience_replay.py:95: error: The return type of a generator function should be "Generator" or one of its supertypes"
+Hityper's correction: typing.Generator[List]
+Mypy Check: Pass
+
+=====Fix5=====
+Project: cauldron
+File: cauldron/cauldron/steptest/functional.py
+File Link: https://github.com/sernst/cauldron/blob/master/cauldron/steptest/functional.py
+Location: Line#35 Function#tester_fixture Target#Return Value
+Original Human Annotation: CauldronTest
+Mypy Check: "sernst.cauldron/cauldron/steptest/functional.py:35: error: The return type of a generator function should be "Generator" or one of its supertypes"
+Hityper's correction: typing.Generator[CauldronTest]
+Mypy Check: Pass
+
+=====Fix6=====
+Project: growser
+File: growser/growser/handlers/rankings.py
+File Link: https://github.com/tomdean/growser/blob/master/growser/handlers/rankings.py
+Location: Line#56 Function#handle Target#Return Value
+Original Human Annotation: RankingsUpdated
+Mypy Check: "tomdean.growser/growser/handlers/rankings.py:56: error: The return type of a generator function should be "Generator" or one of its supertypes"
+Hityper's correction: typing.Generator[RankingsUpdated]
+Mypy Check: Pass
