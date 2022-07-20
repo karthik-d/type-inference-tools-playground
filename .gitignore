@@ -1,4 +1,6 @@
 .token
 data/datasets/*
 !data/datasets/custom-data/hityper-listings
+!data/datasets/custom-data/pytype-listings
+!data/datasets/custom-data/python3-titw
 
