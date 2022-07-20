@@ -1,0 +1,96 @@
+{
+    "__init__@A": [
+        {
+            "category": "arg",
+            "name": "x",
+            "type": []
+        },
+        {
+            "category": "return",
+            "name": "__init__",
+            "type": [
+                "None"
+            ]
+        }
+    ],
+    "aliasing_and_attributes@global": [
+        {
+            "category": "local",
+            "name": "a",
+            "type": [
+                "A"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "b",
+            "type": [
+                "A"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "i",
+            "type": [
+                "int",
+                "tuple[typing.Union[str,str,str,str]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "a_",
+            "type": [
+                "typing.Text",
+                "int"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "aliasing_and_attributes",
+            "type": [
+                "None"
+            ]
+        }
+    ],
+    "check_indexing@global": [
+        {
+            "category": "arg",
+            "name": "i",
+            "type": [
+                "int",
+                "None"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "li",
+            "type": [
+                "list[typing.Union[int,typing.Text]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "a",
+            "type": [
+                "int",
+                "typing.Text"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "b",
+            "type": [
+                "int",
+                "typing.Text"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "check_indexing",
+            "type": [
+                "None"
+            ]
+        }
+    ],
+    "global@global": []
+}

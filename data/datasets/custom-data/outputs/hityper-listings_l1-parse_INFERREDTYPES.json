@@ -1,0 +1,78 @@
+{
+    "global@global": [],
+    "parse@global": [
+        {
+            "category": "arg",
+            "name": "text",
+            "type": [
+                "str"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "text",
+            "type": [
+                "str"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "normalized_text",
+            "type": [
+                "str",
+                "tuple[typing.Union[str,int]]",
+                "int"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "x",
+            "type": [
+                "int",
+                "str",
+                "list[]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "shape",
+            "type": [
+                "list[]",
+                "list[typing.Union[int,list[list[int]],str]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "placeholders",
+            "type": [
+                "dict[, ]",
+                "dict[str, typing.Union[list[list[int]],str,int,list[str]]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "t",
+            "type": [
+                "str",
+                "int"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "pt",
+            "type": [
+                "list[list[int]]",
+                "str",
+                "int",
+                "list[str]"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "parse",
+            "type": [
+                "tuple[typing.Union[list[typing.Union[int,list[list[int]],str]],dict[str, typing.Union[list[list[int]],str,int,list[str]]]]]"
+            ]
+        }
+    ]
+}
