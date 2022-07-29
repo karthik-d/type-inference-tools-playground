@@ -7,3 +7,6 @@
 [submodule "submodules/pytype"]
 	path = submodules/pytype
 	url = https://github.com/google/pytype.git
+[submodule "submodules/atheris"]
+	path = submodules/atheris
+	url = https://github.com/google/atheris
