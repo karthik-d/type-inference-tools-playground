@@ -76,6 +76,15 @@ def f(i):
     l = [1, 2, 3]
     reveal_type(i)
     reveal_type(l[i])
-    a = f(0)
+    
+    # a = f(0)
+    a = l[0] if i == 0 else f(i - 1)
     reveal_type(a)
+    # HiTyper (INCORRECT)
+    # "type": [
+    #     "str",
+    #     "dict[, ]",
+    #     "int"
+    # ]
+
     return l[i] 

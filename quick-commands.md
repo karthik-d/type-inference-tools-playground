@@ -13,6 +13,12 @@
 - `hityper infer -s hityper-listings/l2-abstract_node.py -p hityper-listings -d outputs/ -n 2 -t`
 
 
+## python3-titw/expressions.py
+
+- `hityper findusertype -s python3-titw/expressions.py -p python3-titw -v -d outputs`
+- `hityper gentdg -s python3-titw/expressions.py -p python3-titw -d outputs -f json -o`
+- `hityper infer -s python3-titw/expressions.py -p python3-titw -d outputs/ -n 5 -t`
+
 # PyType
 
 # l1-string-int-add.py
