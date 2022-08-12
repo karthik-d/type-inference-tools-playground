@@ -1,0 +1,144 @@
+digraph "Type Graph" {
+	node [shape=box]
+	"j(arg),0
+  [4, 19, 20]
+ Possible Types { }"
+	"li,0
+  [6, 4, 6]
+ Possible Types { }"
+	"li,1
+  [7, 16, 18]
+ Possible Types { }"
+	"li,2
+  [12, 8, 10]
+ Possible Types { }"
+	"li,3
+  [18, 8, 10]
+ Possible Types { }"
+	"a,0
+  [12, 4, 5]
+ Possible Types { }"
+	"a,1
+  [13, 16, 17]
+ Possible Types { }"
+	"j,1
+  [18, 11, 12]
+ Possible Types { }"
+	"b,0
+  [18, 4, 5]
+ Possible Types { }"
+	"b,1
+  [19, 16, 17]
+ Possible Types { }"
+	node [shape=ellipse]
+	"List_Read
+  [6, 9, 23]"
+	"=
+  [6, 4, 23]"
+	"=
+  [12, 4, 13]"
+	"=
+  [18, 4, 13]"
+	"call reveal_type
+  [7, 4, 19]"
+	"call reveal_type
+  [13, 4, 18]"
+	"call reveal_type
+  [19, 4, 18]"
+	"Subscript_Read
+  [12, 8, 13]"
+	"Subscript_Read
+  [18, 8, 13]"
+	node [shape=circle]
+	"int
+  [6, 10, 12]"
+	"Text
+  [6, 14, 22]"
+	"int
+  [12, 11, 12]"
+	node [shape=triangle]
+	"j(arg),0
+  [4, 19, 20]
+ Possible Types { }" -> "j,1
+  [18, 11, 12]
+ Possible Types { }"
+	"int
+  [6, 10, 12]" -> "List_Read
+  [6, 9, 23]"
+	"Text
+  [6, 14, 22]" -> "List_Read
+  [6, 9, 23]"
+	"List_Read
+  [6, 9, 23]" -> "=
+  [6, 4, 23]"
+	"li,0
+  [6, 4, 6]
+ Possible Types { }" -> "li,1
+  [7, 16, 18]
+ Possible Types { }"
+	"=
+  [6, 4, 23]" -> "li,0
+  [6, 4, 6]
+ Possible Types { }"
+	"li,1
+  [7, 16, 18]
+ Possible Types { }" -> "call reveal_type
+  [7, 4, 19]"
+	"li,1
+  [7, 16, 18]
+ Possible Types { }" -> "li,2
+  [12, 8, 10]
+ Possible Types { }"
+	"li,2
+  [12, 8, 10]
+ Possible Types { }" -> "Subscript_Read
+  [12, 8, 13]"
+	"li,2
+  [12, 8, 10]
+ Possible Types { }" -> "li,3
+  [18, 8, 10]
+ Possible Types { }"
+	"int
+  [12, 11, 12]" -> "Subscript_Read
+  [12, 8, 13]"
+	"Subscript_Read
+  [12, 8, 13]" -> "=
+  [12, 4, 13]"
+	"a,0
+  [12, 4, 5]
+ Possible Types { }" -> "a,1
+  [13, 16, 17]
+ Possible Types { }"
+	"=
+  [12, 4, 13]" -> "a,0
+  [12, 4, 5]
+ Possible Types { }"
+	"a,1
+  [13, 16, 17]
+ Possible Types { }" -> "call reveal_type
+  [13, 4, 18]"
+	"li,3
+  [18, 8, 10]
+ Possible Types { }" -> "Subscript_Read
+  [18, 8, 13]"
+	"j,1
+  [18, 11, 12]
+ Possible Types { }" -> "Subscript_Read
+  [18, 8, 13]"
+	"Subscript_Read
+  [18, 8, 13]" -> "=
+  [18, 4, 13]"
+	"b,0
+  [18, 4, 5]
+ Possible Types { }" -> "b,1
+  [19, 16, 17]
+ Possible Types { }"
+	"=
+  [18, 4, 13]" -> "b,0
+  [18, 4, 5]
+ Possible Types { }"
+	"b,1
+  [19, 16, 17]
+ Possible Types { }" -> "call reveal_type
+  [19, 4, 18]"
+}

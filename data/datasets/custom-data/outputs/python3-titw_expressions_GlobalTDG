@@ -1,0 +1,8 @@
+digraph "Type Graph" {
+	node [shape=box]
+	"A.attr,0
+  [29, 12, 21]
+ Possible Types { }"
+	node [shape=ellipse]
+	node [shape=circle]
+}

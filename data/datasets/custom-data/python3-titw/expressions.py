@@ -65,7 +65,7 @@ def type_updation():
     reveal_type(li)
     # Pytype: List[Union[int, str]]
     # MyPy: ERROR
-    # HiTyper
+    # HiTyper (INCORRECT)
     # "type": [
     #     "list[int]",
     #     "list[typing.Union[int,typing.Text]]"

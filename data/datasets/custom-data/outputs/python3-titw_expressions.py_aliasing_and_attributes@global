@@ -1,0 +1,151 @@
+digraph "Type Graph" {
+	node [shape=box]
+	"a,0
+  [31, 4, 5]
+ Possible Types { }"
+	"b,0
+  [32, 4, 5]
+ Possible Types { }"
+	"b,1
+  [44, 16, 17]
+ Possible Types { }"
+	"i,0
+  [34, 4, 5]
+ Possible Types { }"
+	"i,1
+  [35, 8, 9]
+ Possible Types { }"
+	"a_@_attr,0
+  [36, 8, 14]
+ Possible Types { }"
+	"a_@_attr,1
+  [38, 8, 14]
+ Possible Types { }"
+	"a_@_attr,2
+  [40, 16, 22]
+ Possible Types { }"
+	"b_@_attr,0
+  [44, 16, 22]
+ Possible Types { }"
+	node [shape=ellipse]
+	"call A
+  [31, 8, 12]"
+	"call A
+  [32, 8, 12]"
+	"call input
+  [34, 8, 15]"
+	"call reveal_type
+  [40, 4, 23]"
+	"call reveal_type
+  [44, 4, 23]"
+	"=
+  [31, 4, 12]"
+	"=
+  [32, 4, 12]"
+	"=
+  [34, 4, 15]"
+	"=
+  [36, 8, 26]"
+	"=
+  [38, 8, 18]"
+	"==
+  [35, 8, 22]"
+	".
+  [44, 16, 22]"
+	"merge a_@_attr1, a_@_attr0"
+	node [shape=circle]
+	"int
+  [31, 10, 11]"
+	"int
+  [32, 10, 11]"
+	"Text
+  [35, 13, 22]"
+	"Text
+  [36, 17, 26]"
+	"int
+  [38, 17, 18]"
+	node [shape=triangle]
+	"int
+  [31, 10, 11]" -> "call A
+  [31, 8, 12]"
+	"call A
+  [31, 8, 12]" -> "=
+  [31, 4, 12]"
+	"=
+  [31, 4, 12]" -> "a,0
+  [31, 4, 5]
+ Possible Types { }"
+	"int
+  [32, 10, 11]" -> "call A
+  [32, 8, 12]"
+	"call A
+  [32, 8, 12]" -> "=
+  [32, 4, 12]"
+	"b,0
+  [32, 4, 5]
+ Possible Types { }" -> "b,1
+  [44, 16, 17]
+ Possible Types { }"
+	"=
+  [32, 4, 12]" -> "b,0
+  [32, 4, 5]
+ Possible Types { }"
+	"call input
+  [34, 8, 15]" -> "=
+  [34, 4, 15]"
+	"i,0
+  [34, 4, 5]
+ Possible Types { }" -> "i,1
+  [35, 8, 9]
+ Possible Types { }"
+	"=
+  [34, 4, 15]" -> "i,0
+  [34, 4, 5]
+ Possible Types { }"
+	"i,1
+  [35, 8, 9]
+ Possible Types { }" -> "==
+  [35, 8, 22]"
+	"Text
+  [35, 13, 22]" -> "==
+  [35, 8, 22]"
+	"Text
+  [36, 17, 26]" -> "=
+  [36, 8, 26]"
+	"a_@_attr,0
+  [36, 8, 14]
+ Possible Types { }" -> "merge a_@_attr1, a_@_attr0"
+	"=
+  [36, 8, 26]" -> "a_@_attr,0
+  [36, 8, 14]
+ Possible Types { }"
+	"int
+  [38, 17, 18]" -> "=
+  [38, 8, 18]"
+	"a_@_attr,1
+  [38, 8, 14]
+ Possible Types { }" -> "merge a_@_attr1, a_@_attr0"
+	"=
+  [38, 8, 18]" -> "a_@_attr,1
+  [38, 8, 14]
+ Possible Types { }"
+	"merge a_@_attr1, a_@_attr0" -> "a_@_attr,2
+  [40, 16, 22]
+ Possible Types { }"
+	"a_@_attr,2
+  [40, 16, 22]
+ Possible Types { }" -> "call reveal_type
+  [40, 4, 23]"
+	"b,1
+  [44, 16, 17]
+ Possible Types { }" -> ".
+  [44, 16, 22]"
+	".
+  [44, 16, 22]" -> "b_@_attr,0
+  [44, 16, 22]
+ Possible Types { }"
+	"b_@_attr,0
+  [44, 16, 22]
+ Possible Types { }" -> "call reveal_type
+  [44, 4, 23]"
+}

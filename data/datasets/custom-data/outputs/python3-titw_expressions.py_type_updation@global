@@ -1,0 +1,94 @@
+digraph "Type Graph" {
+	node [shape=box]
+	"li,0
+  [59, 4, 6]
+ Possible Types { }"
+	"li,1
+  [60, 16, 18]
+ Possible Types { }"
+	"li,2
+  [64, 4, 6]
+ Possible Types { }"
+	"li,3
+  [64, 4, 6]
+ Possible Types { }"
+	"li,4
+  [65, 16, 18]
+ Possible Types { }"
+	node [shape=ellipse]
+	"List_Read
+  [59, 9, 17]"
+	"=
+  [59, 4, 17]"
+	"=
+  [64, 4, 20]"
+	"call reveal_type
+  [60, 4, 19]"
+	"call reveal_type
+  [65, 4, 19]"
+	"Subscript_Write
+  [64, 4, 9]"
+	node [shape=circle]
+	"int
+  [59, 10, 12]"
+	"int
+  [59, 14, 16]"
+	"Text
+  [64, 12, 20]"
+	"int
+  [64, 7, 8]"
+	node [shape=triangle]
+	"int
+  [59, 10, 12]" -> "List_Read
+  [59, 9, 17]"
+	"int
+  [59, 14, 16]" -> "List_Read
+  [59, 9, 17]"
+	"List_Read
+  [59, 9, 17]" -> "=
+  [59, 4, 17]"
+	"li,0
+  [59, 4, 6]
+ Possible Types { }" -> "li,1
+  [60, 16, 18]
+ Possible Types { }"
+	"=
+  [59, 4, 17]" -> "li,0
+  [59, 4, 6]
+ Possible Types { }"
+	"li,1
+  [60, 16, 18]
+ Possible Types { }" -> "call reveal_type
+  [60, 4, 19]"
+	"li,1
+  [60, 16, 18]
+ Possible Types { }" -> "li,2
+  [64, 4, 6]
+ Possible Types { }"
+	"Text
+  [64, 12, 20]" -> "=
+  [64, 4, 20]"
+	"li,2
+  [64, 4, 6]
+ Possible Types { }" -> "Subscript_Write
+  [64, 4, 9]"
+	"int
+  [64, 7, 8]" -> "Subscript_Write
+  [64, 4, 9]"
+	"li,3
+  [64, 4, 6]
+ Possible Types { }" -> "li,4
+  [65, 16, 18]
+ Possible Types { }"
+	"Subscript_Write
+  [64, 4, 9]" -> "li,3
+  [64, 4, 6]
+ Possible Types { }"
+	"=
+  [64, 4, 20]" -> "Subscript_Write
+  [64, 4, 9]"
+	"li,4
+  [65, 16, 18]
+ Possible Types { }" -> "call reveal_type
+  [65, 4, 19]"
+}

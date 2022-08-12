@@ -1,0 +1,30 @@
+digraph "Type Graph" {
+	node [shape=box]
+	"x(arg),0
+  [28, 27, 28]
+ Possible Types { }"
+	"x,1
+  [29, 24, 25]
+ Possible Types { }"
+	"A.attr,0
+  [29, 12, 21]
+ Possible Types { }"
+	node [shape=ellipse]
+	"=
+  [29, 12, 25]"
+	node [shape=circle]
+	node [shape=triangle]
+	"x(arg),0
+  [28, 27, 28]
+ Possible Types { }" -> "x,1
+  [29, 24, 25]
+ Possible Types { }"
+	"x,1
+  [29, 24, 25]
+ Possible Types { }" -> "=
+  [29, 12, 25]"
+	"=
+  [29, 12, 25]" -> "A.attr,0
+  [29, 12, 21]
+ Possible Types { }"
+}
