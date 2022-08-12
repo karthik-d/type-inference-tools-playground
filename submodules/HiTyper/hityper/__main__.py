@@ -137,6 +137,7 @@ def infertypes(args):
             if not os.path.isfile(args.source):
                 logger.error("Cannot find source file {}".format(args.source))
             try:
+                # `source` contains source code
                 source = open(args.source, "r", encoding = "utf-8").read()
                 root = ast.parse(source)
                 usertypefinder = UsertypeFinder(args.source, args.repo, True)
@@ -144,6 +145,8 @@ def infertypes(args):
                 generator = TDGGenerator(args.source, True, [args.location], usertypes, alias = 0, repo = None)
                 global_tg = generator.run(root)
                 str_results = {}
+                # `passTypes` does static inference iteration(s) - forward + backward
+                # num_iterations -> max iters (from config), or until no changes in graph
                 global_tg.passTypes(debug = False)
                 str_results["global@global"] = global_tg.dumptypes()
                 if recommendations == None and args.type4py:
@@ -158,6 +161,7 @@ def infertypes(args):
                             iters += 1
                             tg.passTypes(debug = False)
                             types = tg.findHotTypes()
+                            # `types` is a queue of hot-types
                             tg.recommendType(types, recommendations, formatUserTypes(usertypes), usertypes["module"], args.topn, simmodel = simmodel)
                             tg.passTypes(debug = False)
                             new_types = tg.findHotTypes()

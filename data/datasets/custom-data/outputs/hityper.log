@@ -8192,3 +8192,111 @@
 2022-07-20 22:08:42,680[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
 2022-07-20 22:08:42,680[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
 2022-07-20 22:08:42,681[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-08-12 15:11:54,436[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-08-12 15:11:54,468[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-08-12 15:11:54,469[INFO][tdg_generator.py:275] Handling file #hityper-listings/l1-parse.py
+2022-08-12 15:11:54,469[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-08-12 15:11:54,469[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-08-12 15:11:54,469[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-08-12 15:11:54,469[WARNING][tdg_generator.py:1170] ast variable is read but it is not previously defined! Line: 6
+2022-08-12 15:11:54,470[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-08-12 15:11:54,470[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG hityper-listings/l1-parse.py
+2022-08-12 15:11:54,470[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,710[INFO][utils.py:144] Get 9 recommendations from Type4Py.
+2022-08-12 15:11:58,710[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,716[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,734[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,748[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,748[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,749[INFO][tdg.py:1284] Hot Type: text(arg) at Location: [4,10,14]
+2022-08-12 15:11:58,749[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,749[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,749[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,750[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,750[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,750[INFO][tdg.py:1284] Hot Type: pt at Location: [11,12,14]
+2022-08-12 15:11:58,750[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,750[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable text, recommended types: 0 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-08-12 15:11:58,750[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale ast or the recommended type set is empty.
+2022-08-12 15:11:58,750[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale i or the recommended type set is empty.
+2022-08-12 15:11:58,751[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,751[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,751[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,751[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable pt, recommended types: 0 - @Type: list, Element Type: [@Type: list, Element Type: [@Type: int, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+1 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+3 - @Type: list, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-08-12 15:11:58,751[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,757[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,775[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,790[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,790[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,790[INFO][tdg.py:1284] Hot Type: normalized_text at Location: [5,4,19]
+2022-08-12 15:11:58,790[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,790[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,790[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,791[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,791[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,791[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,791[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,795[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,806[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,816[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,816[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: normalized_text at Location: [5,4,19]
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,816[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,816[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,816[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable normalized_text, recommended types: 0 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: int, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+2 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+3 - @Type: Iterable, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-08-12 15:11:58,816[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale ast or the recommended type set is empty.
+2022-08-12 15:11:58,817[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale i or the recommended type set is empty.
+2022-08-12 15:11:58,817[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,817[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,817[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,817[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,819[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,829[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,840[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,840[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,840[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,840[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,840[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,841[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,841[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,841[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,841[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,844[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,854[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,862[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,862[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,862[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,862[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,862[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,862[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,862[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,862[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,863[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale ast or the recommended type set is empty.
+2022-08-12 15:11:58,863[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale i or the recommended type set is empty.
+2022-08-12 15:11:58,863[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,863[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,863[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale t or the recommended type set is empty.
+2022-08-12 15:11:58,863[INFO][tdg.py:1036] [Static Inference] Start iterating TDG parse@global
+2022-08-12 15:11:58,865[INFO][tdg.py:320] Reject typing.Generator[] for node call in op forin.
+2022-08-12 15:11:58,873[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-08-12 15:11:58,873[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,873[INFO][tdg.py:1284] Hot Type: ast at Location: [6,10,13]
+2022-08-12 15:11:58,873[INFO][tdg.py:1284] Hot Type: i at Location: [9,8,9]
+2022-08-12 15:11:58,873[INFO][tdg.py:1284] Hot Type: t at Location: [9,12,13]
+2022-08-12 15:11:58,873[INFO][tdg.py:1284] Hot Type: t at Location: [10,22,23]
+2022-08-12 15:11:58,873[INFO][tdg.py:1284] Hot Type: t at Location: [13,25,26]
+2022-08-12 15:11:58,873[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:parse@global
+2022-08-12 15:11:58,874[INFO][__main__.py:172] Saved results to outputs//hityper-listings_l1-parse_INFERREDTYPES.json

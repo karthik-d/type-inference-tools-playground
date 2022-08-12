@@ -26,15 +26,6 @@
         },
         {
             "category": "local",
-            "name": "x",
-            "type": [
-                "int",
-                "str",
-                "list[]"
-            ]
-        },
-        {
-            "category": "local",
             "name": "shape",
             "type": [
                 "list[]",
