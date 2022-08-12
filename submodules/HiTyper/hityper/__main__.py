@@ -161,9 +161,11 @@ def infertypes(args):
                             iters += 1
                             tg.passTypes(debug = False)
                             types = tg.findHotTypes()
-                            # `types` is a queue of hot-types
+                            # `types` is a queue of hot-type nodes
                             tg.recommendType(types, recommendations, formatUserTypes(usertypes), usertypes["module"], args.topn, simmodel = simmodel)
+                            # NN predictions are now added to the TDG ("recommended TDG")
                             tg.passTypes(debug = False)
+                            # paper states that this "ensures correctness   "
                             new_types = tg.findHotTypes()
                             changed = detectChange(types, new_types)
                             tg.simplifyTypes()

@@ -71,6 +71,7 @@ def type_updation():
     #     "list[typing.Union[int,typing.Text]]"
     # ]
 
+
 def f(i):
     l = [1, 2, 3]
     reveal_type(i)

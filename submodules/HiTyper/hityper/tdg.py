@@ -1380,6 +1380,7 @@ class TypeGraph(object):
                 logger.warning("[Type Recommendation]Cannot get the recommended types for varibale {} or the recommended type set is empty.".format(name))
                 continue
             verifiedtypes = []
+            # Verify the recommended types by "similarity-based type-correction"
             for tt in rectypes:
                 if tt.category == 0:
                     for ett in tt.elementtype:
