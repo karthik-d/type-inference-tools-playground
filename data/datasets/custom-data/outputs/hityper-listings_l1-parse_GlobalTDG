@@ -1,5 +1,0 @@
-digraph "Type Graph" {
-	node [shape=box]
-	node [shape=ellipse]
-	node [shape=circle]
-}

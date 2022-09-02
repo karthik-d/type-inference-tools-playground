@@ -8531,3 +8531,1078 @@
 2022-08-12 23:15:53,583[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
 2022-08-12 23:15:53,583[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
 2022-08-12 23:15:53,584[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:09:40,533[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:09:40,586[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:09:40,586[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:09:40,587[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:09:40,587[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:09:40,587[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:09:40,593[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:09:40,593[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:09:40,593[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,680[INFO][utils.py:144] Get 26 recommendations from Type4Py.
+2022-09-02 22:09:42,680[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:09:42,686[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,686[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,686[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [4,19,20]
+2022-09-02 22:09:42,686[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,687[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:09:42,687[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:09:42,689[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:09:42,690[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:09:42,693[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,693[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,694[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,694[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:09:42,697[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,697[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,697[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,697[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:09:42,700[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,700[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,700[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:09:42,716[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:09:42,717[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:09:42,717[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,717[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:09:42,717[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [28,27,28]
+2022-09-02 22:09:42,717[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:09:42,717[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:09:42,718[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:09:42,719[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,719[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:09:42,719[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [28,27,28]
+2022-09-02 22:09:42,719[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:09:42,720[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:09:42,720[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:09:42,734[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,734[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,734[INFO][tdg.py:1284] Hot Type: i at Location: [34,4,5]
+2022-09-02 22:09:42,735[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:09:42,735[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,735[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:09:42,736[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:09:42,736[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:09:42,750[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,750[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,750[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:09:42,750[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,751[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:09:42,757[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,757[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,757[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:09:42,757[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,757[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:09:42,758[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:09:42,763[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,763[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,763[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:09:42,763[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:09:42,764[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:09:42,764[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:09:42,770[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,770[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:09:42,770[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:09:42,770[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:09:42,772[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,772[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:09:42,772[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:09:42,773[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:09:42,773[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:09:42,781[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,781[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,781[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [75,6,7]
+2022-09-02 22:09:42,781[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,782[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:09:42,782[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:09:42,790[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,790[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,790[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,790[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:09:42,794[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,794[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,794[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,794[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:09:42,798[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:09:42,798[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,798[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:09:42,799[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:10:06,460[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:10:06,461[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:10:06,461[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:10:06,461[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:10:06,461[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:10:06,461[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:10:06,463[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:10:06,463[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:10:06,463[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:08,959[INFO][utils.py:144] Get 26 recommendations from Type4Py.
+2022-09-02 22:10:08,959[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:10:08,975[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:08,976[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:08,976[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [4,19,20]
+2022-09-02 22:10:08,976[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:08,976[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:10:08,976[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:10:08,984[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:10:08,984[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:10:08,995[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:08,995[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:08,996[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:08,996[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:10:09,005[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,005[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:09,006[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:09,006[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:10:09,014[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,014[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:09,014[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:10:09,015[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:10:09,016[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:10:09,017[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,017[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:10:09,017[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [28,27,28]
+2022-09-02 22:10:09,017[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:10:09,018[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:10:09,018[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:10:09,019[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,019[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:10:09,019[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [28,27,28]
+2022-09-02 22:10:09,019[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:10:09,020[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:10:09,020[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:10:09,030[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,030[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,031[INFO][tdg.py:1284] Hot Type: i at Location: [34,4,5]
+2022-09-02 22:10:09,031[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:10:09,031[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,031[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:10:09,031[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:10:09,031[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:10:09,041[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,041[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,042[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:10:09,042[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,042[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:10:09,046[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,046[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,046[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:10:09,046[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,046[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:10:09,047[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing_and_attributes@global
+2022-09-02 22:10:09,051[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,051[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,051[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [44,16,22]
+2022-09-02 22:10:09,051[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing_and_attributes@global
+2022-09-02 22:10:09,052[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:10:09,052[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:10:09,058[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,058[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:10:09,058[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:10:09,058[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:10:09,061[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,061[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:10:09,061[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:10:09,062[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:10:09,062[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:10:09,073[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,073[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,073[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [75,6,7]
+2022-09-02 22:10:09,073[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,073[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:10:09,073[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:10:09,084[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,084[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,084[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,084[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:10:09,088[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,088[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,088[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,089[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:10:09,093[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:10:09,093[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,093[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:10:09,094[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:23,844[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:21:23,845[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:21:23,845[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:21:23,845[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:21:23,845[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:21:23,845[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:21:23,848[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:21:23,848[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:21:23,848[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,217[INFO][utils.py:144] Get 36 recommendations from Type4Py.
+2022-09-02 22:21:26,218[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:26,235[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,235[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,235[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:21:26,235[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,236[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:26,236[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:26,244[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:21:26,244[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:21:26,254[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,254[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,254[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,255[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:26,263[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,263[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,263[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,264[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:26,272[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,272[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,272[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:26,274[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:26,274[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:21:26,275[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,275[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:26,276[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:21:26,276[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:26,276[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:21:26,276[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:21:26,277[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,277[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:26,277[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:21:26,277[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:26,278[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:26,279[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:26,290[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,290[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,290[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:21:26,290[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:26,291[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,291[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:26,291[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:21:26,291[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:26,303[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,303[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,303[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:26,303[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,303[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:26,308[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,308[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,308[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:26,308[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,308[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:21:26,308[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:26,313[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,313[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,313[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:26,313[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:26,314[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:26,314[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:21:26,318[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,318[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:26,318[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:26,319[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:21:26,320[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,321[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:26,321[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:26,321[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:26,322[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:21:26,327[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,327[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:26,327[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:26,327[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:21:26,331[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,331[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:26,331[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:26,332[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:26,332[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:26,342[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,342[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,342[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [97,6,7]
+2022-09-02 22:21:26,342[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,342[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:26,342[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:26,352[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,352[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,352[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,352[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:26,357[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,357[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,357[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,357[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:26,361[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:26,361[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,362[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:26,363[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:48,616[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:21:48,616[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:21:48,616[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:21:48,617[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:21:48,617[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:21:48,617[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:21:48,619[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:21:48,619[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:21:48,619[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,566[INFO][utils.py:144] Get 35 recommendations from Type4Py.
+2022-09-02 22:21:51,567[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:51,580[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,580[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,580[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:21:51,580[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,580[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:51,580[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:51,586[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:21:51,586[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:21:51,593[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,593[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,593[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,593[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:51,598[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,598[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,598[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,598[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:21:51,603[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,604[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,604[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:21:51,605[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:51,605[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:21:51,605[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,606[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:51,606[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:21:51,606[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:51,606[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:21:51,606[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:21:51,607[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,607[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:51,607[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:21:51,607[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:21:51,607[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:51,607[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:51,614[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,614[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,615[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:21:51,615[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:51,615[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,615[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:51,615[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:21:51,615[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:51,622[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,622[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,622[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:51,622[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,622[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:51,626[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,626[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,627[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:51,627[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,627[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:21:51,627[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:21:51,630[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,630[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,630[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:21:51,630[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:21:51,631[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:51,631[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:21:51,634[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,634[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:51,634[INFO][tdg.py:1284] Hot Type: a_@_attr at Location: [75,16,22]
+2022-09-02 22:21:51,634[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:51,634[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale a_ or the recommended type set is empty.
+2022-09-02 22:21:51,634[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:21:51,636[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,636[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:51,636[INFO][tdg.py:1284] Hot Type: a_@_attr at Location: [75,16,22]
+2022-09-02 22:21:51,636[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:21:51,636[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:51,637[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:21:51,641[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,641[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:51,641[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:51,641[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:21:51,643[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,643[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:51,643[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:21:51,644[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:21:51,644[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:51,653[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,653[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,654[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [97,6,7]
+2022-09-02 22:21:51,654[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,654[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:21:51,654[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:51,662[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,662[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,662[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,662[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:51,666[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,666[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,666[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,666[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:21:51,670[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:21:51,670[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,670[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:21:51,671[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:15,764[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:22:15,765[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:22:15,765[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:22:15,765[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:22:15,765[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:22:15,766[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:22:15,768[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:22:15,768[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:22:15,768[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,373[INFO][utils.py:144] Get 36 recommendations from Type4Py.
+2022-09-02 22:22:18,373[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:22:18,389[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,389[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,390[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:22:18,390[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,390[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:22:18,390[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:22:18,398[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:22:18,398[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:22:18,408[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,408[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,408[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,409[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:22:18,417[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,418[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,418[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,418[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:22:18,426[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,426[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,427[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:22:18,428[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:18,429[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:22:18,430[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,430[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:22:18,430[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:22:18,430[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:22:18,430[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:22:18,431[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:22:18,431[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,432[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:22:18,432[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:22:18,432[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:22:18,433[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:18,433[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:22:18,444[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,444[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,444[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:22:18,444[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:22:18,444[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,445[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:22:18,445[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:22:18,445[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:22:18,457[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,457[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,457[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:22:18,457[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,457[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:22:18,462[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,462[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,462[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:22:18,462[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,463[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:22:18,463[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:22:18,467[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,467[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,467[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:22:18,467[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:22:18,468[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:18,468[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:22:18,473[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,473[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:22:18,473[INFO][tdg.py:1284] Hot Type: a_@_attr at Location: [75,8,14]
+2022-09-02 22:22:18,473[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:22:18,474[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale a_ or the recommended type set is empty.
+2022-09-02 22:22:18,474[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:22:18,476[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,476[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:22:18,476[INFO][tdg.py:1284] Hot Type: a_@_attr at Location: [75,8,14]
+2022-09-02 22:22:18,476[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:22:18,477[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:18,477[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:22:18,483[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,483[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:22:18,483[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:22:18,483[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:22:18,486[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,486[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:22:18,486[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:22:18,487[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:22:18,487[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:22:18,497[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,497[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,497[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [98,6,7]
+2022-09-02 22:22:18,497[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,497[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:22:18,497[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:22:18,507[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,507[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,507[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,507[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:22:18,512[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,512[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,512[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,512[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:22:18,516[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:22:18,517[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,517[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:22:18,517[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:21,578[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:23:21,579[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:23:21,579[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:23:21,579[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:23:21,579[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:23:21,579[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:23:21,581[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:23:21,582[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:23:21,582[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:23,969[INFO][utils.py:144] Get 37 recommendations from Type4Py.
+2022-09-02 22:23:23,969[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:23,985[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:23,985[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:23,985[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:23:23,986[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:23,986[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:23,986[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:23,994[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:23:23,994[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:23:24,005[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,006[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,006[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,006[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:24,015[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,015[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,016[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,016[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:24,023[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,024[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,024[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:24,026[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:24,026[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:23:24,027[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,027[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:24,027[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:23:24,027[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:24,028[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:23:24,028[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:23:24,029[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,029[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:24,029[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:23:24,029[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:24,031[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:24,031[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:24,044[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,044[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,044[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:23:24,044[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:24,045[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,045[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:24,045[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:24,045[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:24,058[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,058[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,058[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:24,058[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,059[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:24,063[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,064[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,064[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:24,064[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,064[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:24,064[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:24,070[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,070[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,070[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:24,070[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:24,071[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:24,072[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:23:24,077[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,077[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:24,077[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,8,14]
+2022-09-02 22:23:24,077[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:24,078[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:24,078[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:23:24,080[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,080[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:24,081[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,8,14]
+2022-09-02 22:23:24,081[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:24,082[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:24,082[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:23:24,089[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,089[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:24,089[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:24,089[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:23:24,092[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,092[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:24,092[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:24,093[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:24,093[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:24,103[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,103[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,104[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [99,6,7]
+2022-09-02 22:23:24,104[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,104[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:24,104[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:24,114[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,114[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,114[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,114[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:24,118[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,118[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,118[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,118[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:24,122[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:24,123[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,123[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:24,123[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:50,291[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:23:50,292[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:23:50,292[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:23:50,292[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:23:50,292[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:23:50,292[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:23:50,295[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:23:50,295[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:23:50,295[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,117[INFO][utils.py:144] Get 36 recommendations from Type4Py.
+2022-09-02 22:23:53,118[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:53,133[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,134[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,134[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:23:53,134[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,134[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:53,135[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:53,142[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:23:53,142[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:23:53,152[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,152[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,152[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,153[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:53,161[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,162[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,162[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,162[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:23:53,171[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,171[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,171[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:23:53,172[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:53,173[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:23:53,174[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,174[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:53,174[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:23:53,174[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:53,174[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:23:53,175[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:23:53,176[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,176[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:53,176[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:23:53,176[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:23:53,177[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:53,177[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:53,188[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,188[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,189[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:23:53,189[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:53,189[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,189[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:53,189[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:53,189[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:53,199[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,200[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,200[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:53,200[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,200[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:53,206[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,206[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,206[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:53,206[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,206[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:53,207[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:23:53,211[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,211[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,211[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:23:53,211[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:23:53,212[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:53,213[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:23:53,218[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,218[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:53,218[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:23:53,218[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:53,218[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:23:53,218[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:23:53,222[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,223[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:53,223[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:23:53,223[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:23:53,224[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:53,224[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:23:53,234[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,234[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:53,234[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:53,234[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:23:53,239[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,239[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:53,239[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:23:53,240[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:23:53,240[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:53,251[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,251[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,251[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [99,6,7]
+2022-09-02 22:23:53,251[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,251[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:23:53,252[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:53,264[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,264[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,264[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,264[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:53,268[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,268[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,268[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,268[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:23:53,272[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:23:53,272[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,273[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:23:53,274[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:36:04,293[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:36:04,294[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:36:04,294[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:36:04,294[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:36:04,294[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:36:04,294[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:36:04,317[ERROR][__main__.py:175] Type inference failed for file python3-titw/expressions.py, reason: self should be used within a class.
+2022-09-02 22:40:06,475[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:40:06,476[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:40:06,476[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:40:06,476[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:40:06,476[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:40:06,476[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:40:06,478[WARNING][tdg_generator.py:1170] x variable is read but it is not previously defined! Line: 83
+2022-09-02 22:40:06,478[WARNING][tdg_generator.py:1170] y variable is read but it is not previously defined! Line: 83
+2022-09-02 22:40:06,480[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:40:06,480[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:40:06,480[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,462[INFO][utils.py:144] Get 40 recommendations from Type4Py.
+2022-09-02 22:40:09,463[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:09,478[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,479[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,479[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:40:09,479[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,479[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:09,480[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:09,487[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:40:09,487[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:40:09,497[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,497[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,497[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,498[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:09,507[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,507[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,507[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,507[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:09,516[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,516[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,516[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:09,518[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,518[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:40:09,519[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,519[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:09,519[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:40:09,519[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:09,520[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:40:09,520[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:40:09,521[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,521[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:09,521[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:40:09,522[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:09,522[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,523[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:09,533[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,533[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,534[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:40:09,534[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:09,534[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,534[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:09,534[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:09,534[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:09,542[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,543[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,543[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:09,543[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,543[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:09,548[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,548[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,549[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:09,549[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,549[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:09,549[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:09,553[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,553[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,553[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:09,553[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:09,555[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,555[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:40:09,560[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,560[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:09,560[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:40:09,560[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:09,560[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:09,560[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:40:09,563[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,563[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:09,563[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:40:09,563[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:09,564[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,564[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:09,571[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,571[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:09,572[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:09,572[INFO][tdg.py:1284] Hot Type: x at Location: [83,15,16]
+2022-09-02 22:40:09,572[INFO][tdg.py:1284] Hot Type: y at Location: [83,32,33]
+2022-09-02 22:40:09,572[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:09,572[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable other, recommended types: 0 - @Type: float, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:09,572[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale x or the recommended type set is empty.
+2022-09-02 22:40:09,572[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale y or the recommended type set is empty.
+2022-09-02 22:40:09,573[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:09,575[INFO][tdg.py:320] Reject float for node other in op call.
+2022-09-02 22:40:09,576[INFO][tdg.py:320] Reject float for node other in op Subscript_Read.
+2022-09-02 22:40:09,576[INFO][tdg.py:320] Reject float for node other in op Subscript_Read.
+2022-09-02 22:40:09,580[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,581[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:09,581[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:09,581[INFO][tdg.py:1284] Hot Type: x at Location: [83,15,16]
+2022-09-02 22:40:09,581[INFO][tdg.py:1284] Hot Type: y at Location: [83,32,33]
+2022-09-02 22:40:09,581[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:09,582[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,582[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:40:09,586[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,586[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:09,587[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:09,587[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:40:09,589[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,589[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:09,589[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:09,590[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:09,590[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:09,599[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,599[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,600[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [106,6,7]
+2022-09-02 22:40:09,600[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,600[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:09,600[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:09,609[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,609[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,609[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,609[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:09,613[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,613[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,613[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,613[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:09,617[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:09,617[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,617[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:09,618[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:52,676[INFO][usertype_finder.py:492] Start finding user-defined types...
+2022-09-02 22:40:52,676[INFO][usertype_finder.py:517] Finished finding user-defined types...
+2022-09-02 22:40:52,676[INFO][tdg_generator.py:275] Handling file #python3-titw/expressions.py
+2022-09-02 22:40:52,677[INFO][tdg_generator.py:2653] [1st Pass: Alias Analysis] Skipped...
+2022-09-02 22:40:52,677[INFO][tdg_generator.py:2668] [2nd Pass: Call Analysis] Skipped...
+2022-09-02 22:40:52,677[INFO][tdg_generator.py:2671] [3rd Pass: TDG Generation] Started...
+2022-09-02 22:40:52,680[INFO][tdg_generator.py:2678] [3rd Pass: TDG Generation] Finished!
+2022-09-02 22:40:52,680[INFO][tdg.py:2099] [Static Inference] Start iterating Global TDG python3-titw/expressions.py
+2022-09-02 22:40:52,680[INFO][tdg.py:2298] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,583[INFO][utils.py:144] Get 42 recommendations from Type4Py.
+2022-09-02 22:40:54,584[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:54,590[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,590[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,590[INFO][tdg.py:1284] Hot Type: j(arg) at Location: [8,19,20]
+2022-09-02 22:40:54,590[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,590[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable j, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: Callable, Element Type: [], Key Type: [], Value Type: []@ 
+2 - @Type: str, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,590[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:54,593[INFO][tdg.py:320] Reject typing.Callable[, ] for node j in op Subscript_Read.
+2022-09-02 22:40:54,593[INFO][tdg.py:320] Reject str for node j in op Subscript_Read.
+2022-09-02 22:40:54,596[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,596[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,597[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,597[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:54,600[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,600[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,600[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,600[INFO][tdg.py:1036] [Static Inference] Start iterating TDG check_indexing@global
+2022-09-02 22:40:54,603[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,603[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,603[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:check_indexing@global
+2022-09-02 22:40:54,604[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,604[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:40:54,604[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,604[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:54,605[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:40:54,605[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:54,605[ERROR][tdg.py:1362] [Type Recommendation]Cannot find the entry in recommendations for current TDG __init__@A
+2022-09-02 22:40:54,605[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __init__@A
+2022-09-02 22:40:54,605[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,605[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:54,605[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [36,27,28]
+2022-09-02 22:40:54,605[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__init__@A
+2022-09-02 22:40:54,606[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,606[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:54,611[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,611[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,611[INFO][tdg.py:1284] Hot Type: i at Location: [42,4,5]
+2022-09-02 22:40:54,611[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:54,611[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,611[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: str, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,611[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:54,611[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:54,616[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,616[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,616[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:54,616[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,617[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:54,619[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,619[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,620[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:54,620[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,620[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:54,620[INFO][tdg.py:1036] [Static Inference] Start iterating TDG attributes_and_sideeffects@global
+2022-09-02 22:40:54,622[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,623[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,623[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [52,16,22]
+2022-09-02 22:40:54,623[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:attributes_and_sideeffects@global
+2022-09-02 22:40:54,623[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,623[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:40:54,627[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,627[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:54,627[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:40:54,627[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:54,627[WARNING][tdg.py:1380] [Type Recommendation]Cannot get the recommended types for varibale b_ or the recommended type set is empty.
+2022-09-02 22:40:54,627[INFO][tdg.py:1036] [Static Inference] Start iterating TDG aliasing@global
+2022-09-02 22:40:54,629[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,629[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:54,629[INFO][tdg.py:1284] Hot Type: b_@_attr at Location: [75,13,19]
+2022-09-02 22:40:54,629[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:aliasing@global
+2022-09-02 22:40:54,630[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,630[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:54,635[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,635[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,636[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:54,636[INFO][tdg.py:1284] Hot Type: x(arg) at Location: [81,18,19]
+2022-09-02 22:40:54,636[INFO][tdg.py:1284] Hot Type: y(arg) at Location: [81,21,22]
+2022-09-02 22:40:54,636[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,636[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable other, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: list, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,636[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable x, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: float, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: float, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+2 - @Type: T, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,636[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable y, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: tuple, Element Type: [@Type: float, Element Type: [], Key Type: [], Value Type: []@ [SEP] @Type: float, Element Type: [], Key Type: [], Value Type: []@ [SEP] ], Key Type: [], Value Type: []@ 
+2 - @Type: T, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,636[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:54,638[INFO][tdg.py:320] Reject int for node other in op call.
+2022-09-02 22:40:54,638[INFO][tdg.py:320] Reject list[] for node other in op call.
+2022-09-02 22:40:54,639[INFO][tdg.py:320] Reject int for node other in op Subscript_Read.
+2022-09-02 22:40:54,639[INFO][tdg.py:320] Reject int for node other in op Subscript_Read.
+2022-09-02 22:40:54,645[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,646[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,646[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:54,646[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,646[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:54,649[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,649[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,649[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:54,649[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,649[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable other, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+1 - @Type: list, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,650[INFO][tdg.py:1036] [Static Inference] Start iterating TDG __ne__@global
+2022-09-02 22:40:54,651[INFO][tdg.py:320] Reject int for node other in op call.
+2022-09-02 22:40:54,651[INFO][tdg.py:320] Reject list[] for node other in op call.
+2022-09-02 22:40:54,652[INFO][tdg.py:320] Reject int for node other in op Subscript_Read.
+2022-09-02 22:40:54,652[INFO][tdg.py:320] Reject int for node other in op Subscript_Read.
+2022-09-02 22:40:54,658[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,658[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,659[INFO][tdg.py:1284] Hot Type: other(arg) at Location: [81,11,16]
+2022-09-02 22:40:54,659[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:__ne__@global
+2022-09-02 22:40:54,659[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,660[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:40:54,663[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,663[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:54,663[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:54,663[INFO][tdg.py:1036] [Static Inference] Start iterating TDG type_updation@global
+2022-09-02 22:40:54,665[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,665[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:54,665[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:type_updation@global
+2022-09-02 22:40:54,666[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json
+2022-09-02 22:40:54,666[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:54,674[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,674[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,674[INFO][tdg.py:1284] Hot Type: i(arg) at Location: [106,6,7]
+2022-09-02 22:40:54,674[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,674[INFO][tdg.py:1397] [Type Recommendation]Found recommendation for variable i, recommended types: 0 - @Type: int, Element Type: [], Key Type: [], Value Type: []@ 
+
+2022-09-02 22:40:54,674[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:54,682[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,682[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,682[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,683[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:54,686[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,687[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,687[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,687[INFO][tdg.py:1036] [Static Inference] Start iterating TDG f@global
+2022-09-02 22:40:54,691[INFO][tdg.py:1244] [Static Inferece] Finished iterating TDG.
+2022-09-02 22:40:54,691[INFO][tdg.py:1249] [Hot Type Slot Finder] Start finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,691[INFO][tdg.py:1286] [Hot Type Slot Finder] Finished finding hot type slots in TDG:f@global
+2022-09-02 22:40:54,692[INFO][__main__.py:172] Saved results to outputs//python3-titw_expressions_INFERREDTYPES.json

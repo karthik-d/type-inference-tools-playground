@@ -1,6 +1,10 @@
 from pytype_extensions import assert_type
 # Syntactic convenience to avoid Python interpreter error
 
+
+"""
+Accessing elements of a heterogeneous collection leads to poor inference
+"""
 def check_indexing(j):
     
     li = [42, 'parrot']
@@ -9,20 +13,24 @@ def check_indexing(j):
     # MyPy: list [object]
     # HiTyper: list[typing.Union[int,typing.Text]]
     
-    a = li[0]
+    a = li[1]
     reveal_type(a)
     # Pytype: int
     # MyPy: object
-    # HiTyper: int
+    # HiTyper: int (INCORRECT)
     
     b = li[j]
     reveal_type(b)
     # Pytype: Any
     # MyPy: object
-    # HiTyper: int
+    # HiTyper: int (INCORRECT)
 
 
-def aliasing_and_attributes():
+"""
+Types influenced by side-effects are not grouped under a common supertype
+HiTyper still tries to be specific, and fails at times
+"""
+def attributes_and_sideeffects():
 
     class A():
         def __init__(self, x):
@@ -45,13 +53,63 @@ def aliasing_and_attributes():
     # Pytype:  Union[int, str], int
     # MyPy: Any
 
-    # HiTyper
+    # HiTyper   (INCORRECT)
     # "category": "local",
     # "name": "a_",
     # "type": [
     #     "typing.Text",
     #     "int"
     # ]
+
+
+def aliasing():
+    
+    class A():
+        def __init__(self, x):
+            self.attr = x
+    
+    a = A(1)
+    b = a
+
+    a.attr = "text"
+    b.attr = b.attr
+    reveal_type(a.attr)
+    reveal_type(b.attr)
+
+
+"""
+- Argument type inference is not correct
+    - Predicts a type for `x` and `y` -- incorrect
+    - No types predicted for `other`
+>> Suggests that the inference goes "forward" but not "backward"?
+"""
+def args(other, x, y):
+    if hasattr(other,"__getitem__") and len(other)==2:
+        return x != other[0] or y != other[1]
+    else:
+        return True
+
+    # {
+    #     "category": "arg",
+    #     "name": "other",
+    #     "type": []
+    # },
+    # {
+    #     "category": "arg",
+    #     "name": "x",
+    #     "type": [
+    #         "int",
+    #         "tuple[typing.Union[float,float]]"
+    #     ]
+    # },
+    # {
+    #     "category": "arg",
+    #     "name": "y",
+    #     "type": [
+    #         "int",
+    #         "tuple[typing.Union[float,float]]"
+    #     ]
+    # }
 
 
 def type_updation():

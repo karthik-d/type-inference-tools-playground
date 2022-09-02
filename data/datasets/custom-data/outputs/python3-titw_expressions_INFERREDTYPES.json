@@ -13,7 +13,83 @@
             ]
         }
     ],
-    "aliasing_and_attributes@global": [
+    "__ne__@global": [
+        {
+            "category": "arg",
+            "name": "other",
+            "type": []
+        },
+        {
+            "category": "arg",
+            "name": "x",
+            "type": [
+                "int",
+                "tuple[typing.Union[float,float]]"
+            ]
+        },
+        {
+            "category": "arg",
+            "name": "y",
+            "type": [
+                "int",
+                "tuple[typing.Union[float,float]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "x",
+            "type": [
+                "int",
+                "tuple[typing.Union[float,float]]"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "y",
+            "type": [
+                "int",
+                "tuple[typing.Union[float,float]]"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "__ne__",
+            "type": [
+                "bool"
+            ]
+        }
+    ],
+    "aliasing@global": [
+        {
+            "category": "local",
+            "name": "a",
+            "type": [
+                "A"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "b",
+            "type": [
+                "A"
+            ]
+        },
+        {
+            "category": "local",
+            "name": "a_",
+            "type": [
+                "typing.Text"
+            ]
+        },
+        {
+            "category": "return",
+            "name": "aliasing",
+            "type": [
+                "None"
+            ]
+        }
+    ],
+    "attributes_and_sideeffects@global": [
         {
             "category": "local",
             "name": "a",
@@ -46,7 +122,7 @@
         },
         {
             "category": "return",
-            "name": "aliasing_and_attributes",
+            "name": "attributes_and_sideeffects",
             "type": [
                 "None"
             ]
