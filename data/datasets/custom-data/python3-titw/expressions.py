@@ -79,7 +79,7 @@ def aliasing():
 
 """
 - Argument type inference is not correct
-    - Predicts a type for `x` and `y` -- incorrect
+    - Predicts a type for `x` and `y` -- incorrectly
     - No types predicted for `other`
 >> Suggests that the inference goes "forward" but not "backward"?
 """
