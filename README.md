@@ -3,7 +3,9 @@ Experiments and Tests on Symbolic Execution, Type Inference and Property-Guided 
 ## Git Submodules
 
 - HiTyper
-
+- Atheris
+- CrossHair
+- PyType
 
 ## Installations and Dependencies
 
