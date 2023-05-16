@@ -25,6 +25,6 @@ Experiments and Tests on Symbolic Execution, Type Inference and Property-Guided 
 
 ## Datasets
 
-More information about the datasets used can be found in a dedicated README, [here](./data/README.md)
+More information about the datasets used can be found in a [dedicated dataset README](./data/README.md).
 
 - ManyTypes4Py
