@@ -3,8 +3,8 @@ Experiments and tests on *symbolic execution*, *type inference*, and Property-Gu
 ## Git Submodules in this repository
 
 - HiTyper
-- Atheris
-- CrossHair
+- Atheris for Python
+- CrossHair for Python
 - PyType
 
 ## Installations and Dependencies
