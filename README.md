@@ -1,4 +1,4 @@
-Experiments and tests on *symbolic execution*, *type inference*, and Property-Guided Testing of Python programs, and codebases.
+Experiments and tests on *symbolic execution*, *type inference*, and *property-guided testing* of python programs and codebases.
 
 ## Git Submodules in this repository
 
