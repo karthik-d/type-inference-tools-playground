@@ -5,7 +5,7 @@ Experiments and tests on *symbolic execution*, *type inference*, and *property-g
 - HiTyper.
 - Atheris for Python.
 - CrossHair for Python.
-- PyType.
+- PyType - Pyhon's type binder.
 
 ## Installations and Dependencies
 
