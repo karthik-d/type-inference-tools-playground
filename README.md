@@ -2,7 +2,7 @@ Experiments and tests on *symbolic execution*, *type inference*, and *property-g
 
 ## Git Submodules in this repository
 
-- HiTyper.
+- HiTyper for Python.
 - Atheris for Python.
 - CrossHair for Python.
 - PyType - Pyhon's type binder.
