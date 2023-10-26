@@ -7,6 +7,12 @@ Experiments and tests on *symbolic execution*, *type inference*, and *property-g
 - CrossHair for Python.
 - PyType - Pyhon's type binder.
 
+## Datasets
+
+More information about the datasets used can be found in a [dedicated dataset README](./data/README.md). The following datasets were used for the experiments.
+
+- [ManyTypes4Py](https://www.computer.org/csdl/proceedings-article/msr/2021/871000a585/1tB7kkYXqzS).
+
 ## Installations and Dependencies
 
 ### HiTyper
@@ -21,10 +27,3 @@ Experiments and tests on *symbolic execution*, *type inference*, and *property-g
 - Linux
 
 **NOTE**: HiTyper requires running under Python >= 3.9 because there are a lot of new nodes introduced on AST from Python 3.9. However, HiTyper can analyze most files written under Python 3 since Python's AST is backward compatible.
-
-
-## Datasets
-
-More information about the datasets used can be found in a [dedicated dataset README](./data/README.md). The following datasets were used for the experiments.
-
-- ManyTypes4Py
