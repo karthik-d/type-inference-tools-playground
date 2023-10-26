@@ -26,4 +26,5 @@ More information about the datasets used can be found in a [dedicated dataset RE
 - Python >= 3.9
 - Linux
 
-**NOTE**: HiTyper requires running under Python >= 3.9 because there are a lot of new nodes introduced on AST from Python 3.9. However, HiTyper can analyze most files written under Python 3 since Python's AST is backward compatible.
+> [!Important]
+> HiTyper requires running on Python >= 3.9 because there are a lot of new nodes introduced on AST from Python 3.9. However, HiTyper can analyze most files written under Python 3 since Python's AST is backward compatible.
